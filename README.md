@@ -11,9 +11,8 @@ cd Apple
 git checkout Apple
 firefox .
 ```
-
 ## Demo
-https://rawcdn.githack.com/ghamtre/Apple/30c91f9626f1bc5b51c7de0bec8b6deab02b76eb/index.html
+https://rawcdn.githack.com/ghamtre/AppleSolo/bbbd0e0bc61bb4d3187bf7bb530fd779f43e8dc0/index.html
 
 ## Author
 👤 **Isaac Gonzalez**
