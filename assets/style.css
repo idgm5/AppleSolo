@@ -116,12 +116,14 @@ h2 {
   margin-bottom: 2rem;
 }
 .header > .container {
-    background-image: url(https://wallpaperaccess.com/full/366398.jpg);
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    position: absolute;
-    z-index: -1;
+  background-image: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  background-position: center bottom;
+  background-repeat: no-repeat;
 }
 
 .product {
