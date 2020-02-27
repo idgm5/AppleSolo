@@ -3,6 +3,7 @@ body {
   grid-template-rows: auto auto;
   margin: 0;
   padding: 0;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
   width: 100%;
   margin-top: 6rem;
   justify-content: center;
-  height: 2.5rem;
+  height: 2.28rem;
 }
 
 ul {
@@ -24,10 +25,16 @@ li {
   display: table-cell;
 }
 
+.first {
+  border-radius: 4px 0 0 4px;
+}
+
 button {
   padding: 4px 30px;
-  background:#707070;
+  background: #707070;
+  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
   width: 5rem;
+  border: solid 0.5px #707070;
 }
 
 button > div {
@@ -103,11 +110,14 @@ button > div {
   background: #707070;
   display: flex;
   align-items: center;
+  border: solid 0.5px gray;
+  border-radius: 0 4px 4px 0;
 }
 
 .search > input {
   font-family: FontAwesome;
-  background-color: #707070;
+  background: #707070;
+  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
   margin: 0 5px;
 }
 
@@ -209,24 +219,27 @@ h2 {
 
 footer {
   display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding:1em 0 2.6em;
+  justify-content: center;
+  color: rgba(110,110,110);
 }
 
-footer > .information {
+.footer-text-container {
+  width: 60rem;
+}
+
+.footer-text-container > .information {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-footer > .information > p {
-  font-size: 16px;
+.footer-text-container > .information > p {
+  font-size: 10px;
 }
 
-footer > .copyrights > p {
-  font-size: 16px;
+.footer-text-container > .copyrights > p {
+  font-size: 10px;
 }
 
 a {
