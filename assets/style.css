@@ -10,7 +10,28 @@ nav {
   position: absolute;
   width: 100%;
   margin-top: 6rem;
-  justify-content: center
+  justify-content: center;
+  height: 2.5rem;
+}
+
+ul {
+  display: table;
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  display: table-cell;
+}
+
+button {
+  padding: 4px 30px;
+  background:#707070;
+  width: 5rem;
+}
+
+button > div {
+  margin-left: -0.7rem;
 }
 
 .logo {
@@ -19,6 +40,7 @@ nav {
   width: 18px;
   background-position: left -71px top;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 .store {
@@ -80,6 +102,8 @@ nav {
 .search > input {
   width: 100%;
   height: 100%;
+  font-family: FontAwesome;
+  text-align: right;
 }
 
 h1 {
