@@ -12,7 +12,7 @@ git checkout Apple
 firefox .
 ```
 ## Demo
-https://rawcdn.githack.com/ghamtre/AppleSolo/bbbd0e0bc61bb4d3187bf7bb530fd779f43e8dc0/index.html
+https://rawcdn.githack.com/ghamtre/AppleSolo/b9cd4551d92c087c65388f0f41ac7b213bbfffe6/index.html
 
 ## Author
 👤 **Isaac Gonzalez**
