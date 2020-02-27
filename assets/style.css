@@ -14,13 +14,73 @@ nav {
 }
 
 .logo {
-  background-image: url(./assets/img/menu.png);
+  background-image: url(./img/menu.png);
   height: 27px;
   width: 18px;
   background-position: left -71px top;
   background-repeat: no-repeat;
 }
 
+.store {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 44px;
+  background-position: left -58px top -31px;
+  background-repeat: no-repeat;
+}
+
+.mac {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 31px;
+  background-position: left -63px top -61px;
+  background-repeat: no-repeat;
+}
+
+.ipod {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 28px;
+  background-position: left -66px top -90px;
+  background-repeat: no-repeat;
+}
+
+.iphone {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 43px;
+  background-position: left -58px top -120px;
+  background-repeat: no-repeat;
+}
+
+.ipad {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 27px;
+  background-position: left -66px top -149px;
+  background-repeat: no-repeat;
+}
+
+.itunes {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 41px;
+  background-position: left -59px top -180px;
+  background-repeat: no-repeat;
+}
+
+.support {
+  background-image: url(./img/menu.png);
+  height: 27px;
+  width: 49px;
+  background-position: left -56px top -211px;
+  background-repeat: no-repeat;
+}
+
+.search > input {
+  width: 100%;
+  height: 100%;
+}
 
 h1 {
   font-size: 60px;
