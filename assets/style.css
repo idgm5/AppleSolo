@@ -99,11 +99,21 @@ button > div {
   background-repeat: no-repeat;
 }
 
+.search {
+  background: #707070;
+  display: flex;
+  align-items: center;
+}
+
 .search > input {
-  width: 100%;
-  height: 100%;
   font-family: FontAwesome;
-  text-align: right;
+  background-color: #707070;
+  margin: 0 5px;
+}
+
+::placeholder {
+  background: #707070;
+  color: white;
 }
 
 h1 {
