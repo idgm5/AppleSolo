@@ -1,0 +1,138 @@
+body {
+  display: grid;
+  grid-template-rows: auto auto;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  margin-top: 6rem;
+  justify-content: center
+}
+
+.logo {
+  background-image: url(./assets/img/menu.png);
+  height: 27px;
+  width: 18px;
+  background-position: left -71px top;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+  margin-top: 10rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  color: white;
+  font-weight: 300;
+  align-items: center;
+}
+
+.header > p {
+  font-weight: 100;
+  font-size: 35px;
+  width: 82%;
+  line-height: 44px;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.header > .container {
+    background-image: url(https://wallpaperaccess.com/full/366398.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.product {
+  display: flex;
+  position: relative;
+  height: 30vh;
+}
+
+.product-item-1 {
+  background-image: url(https://archive.fo/UW4oR/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.product-item-2 {
+  background-image: url(https://archive.fo/UW4oR/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.product-item-3 {
+  background-image: url(https://archive.fo/UW4oR/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.product-item-4 {
+  background-image: url(https://archive.fo/UW4oR/ec67ffeb084d1b9c83687205641697baa4122bee.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+footer > .information {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > .information > p {
+  font-size: 16px;
+}
+
+footer > .copyrights > p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
