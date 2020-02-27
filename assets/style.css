@@ -119,11 +119,13 @@ button > div {
   background: #707070;
   background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
   margin: 0 5px;
+  border-radius: 4px;
 }
 
 ::placeholder {
   background: #707070;
   color: white;
+  font-size: 11px;
 }
 
 h1 {
