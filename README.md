@@ -1,5 +1,5 @@
 # Old Apple Website
-I cloned the old official Apple's website for the Odin Project's [BUILDING WITH BACKGROUNDS AND GRADIENTS](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)Task.
+I cloned the old official Apple's website for the Odin Project's [Building with backgrounds and gradients](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients) Project.
 
 Using only HTML and advanced technique in CSS for the styling.
 
