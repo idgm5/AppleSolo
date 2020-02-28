@@ -6,6 +6,10 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 h6 {
   display: none;
 }
@@ -269,6 +273,6 @@ footer {
   font-size: 10px;
 }
 
-a {
-  text-decoration: none;
+.footer-text-container > a {
+  color: #76B8DF;
 }
