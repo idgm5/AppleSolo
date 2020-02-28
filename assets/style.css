@@ -20,10 +20,18 @@ nav {
   z-index: 1;
 }
 
+li:hover {
+  background: rgb(255,255,255);
+  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(37,81,162,1) 0%, rgba(254,16,16,1) 100%);
+}
+
 ul {
   display: table;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  background: #707070;
+  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
 }
 
 li {
@@ -32,18 +40,15 @@ li {
 
 .first {
   border-radius: 4px 0 0 4px;
+  border-left: 0;
 }
 
-button {
+li > a {
+  display: block;
   padding: 4px 30px;
-  background: #707070;
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
-  width: 5rem;
-  border: solid 0.5px #707070;
-}
-
-button > span {
-  margin-left: -0.7rem;
+  width: 100%;
+  border: solid 0.5px transparent;
+  border-left: solid 0.5px #707070;
 }
 
 .logo {
