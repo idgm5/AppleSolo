@@ -273,6 +273,10 @@ footer {
   font-size: 10px;
 }
 
-.footer-text-container > a {
-  color: #76B8DF;
+.footer-text-container > .information > p > a {
+  color: #76b8df;
+}
+
+.footer-text-container > .copyrights > p > a {
+  color: #76b8df;
 }
