@@ -6,8 +6,8 @@ A clone of the old Apple official website
 
 ## Usage
 ```Git
-git clone https://github.com/ghamtre/Apple.git
-cd Apple
+git clone https://github.com/ghamtre/AppleSolo.git
+cd AppleSolo
 git checkout Apple
 firefox .
 ```
