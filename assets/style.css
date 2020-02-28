@@ -43,6 +43,7 @@ button > div {
 }
 
 .logo {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 18px;
@@ -52,6 +53,7 @@ button > div {
 }
 
 .store {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 44px;
@@ -60,6 +62,7 @@ button > div {
 }
 
 .mac {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 31px;
@@ -68,6 +71,7 @@ button > div {
 }
 
 .ipod {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 28px;
@@ -76,6 +80,7 @@ button > div {
 }
 
 .iphone {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 43px;
@@ -84,6 +89,7 @@ button > div {
 }
 
 .ipad {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 27px;
@@ -92,6 +98,7 @@ button > div {
 }
 
 .itunes {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 41px;
@@ -100,6 +107,7 @@ button > div {
 }
 
 .support {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 49px;
@@ -108,6 +116,7 @@ button > div {
 }
 
 .search {
+  display: block;
   background: #707070;
   display: flex;
   align-items: center;
