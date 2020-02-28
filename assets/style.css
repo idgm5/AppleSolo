@@ -25,8 +25,8 @@ nav {
 }
 
 li:hover {
-  background: rgb(255,255,255);
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(37,81,162,1) 0%, rgba(254,16,16,1) 100%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(37, 81, 162, 1) 0%, rgba(254, 16, 16, 1) 100%);
 }
 
 ul {
@@ -35,7 +35,7 @@ ul {
   margin: 0;
   padding: 0;
   background: #707070;
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(140, 140, 140, 1) 100%);
 }
 
 li {
@@ -140,7 +140,7 @@ li > a {
 .search > input {
   font-family: FontAwesome;
   background: #707070;
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(140, 140, 140, 1) 100%);
   margin: 0 5px;
   border-radius: 4px;
 }
