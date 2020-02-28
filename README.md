@@ -12,7 +12,7 @@ git checkout Apple
 firefox .
 ```
 ## Demo
-https://rawcdn.githack.com/ghamtre/AppleSolo/b9cd4551d92c087c65388f0f41ac7b213bbfffe6/index.html
+https://rawcdn.githack.com/ghamtre/AppleSolo/8dc77dedc6c6e55174e8b34bb90796045ebc9f1d/index.html
 
 ## Author
 👤 **Isaac Gonzalez**
@@ -25,4 +25,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Support this project with a ⭐️ and let us now if you would like to become a contributor!
 
 ## License
-[MIT](https://github.com/ghamtre/Apple/community/license/new?template=MIT)
+[MIT](https://github.com/ghamtre/AppleSolo/community/license/new?template=MIT)
