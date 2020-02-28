@@ -6,6 +6,10 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+h6 {
+  display: none;
+}
+
 nav {
   display: flex;
   position: absolute;
