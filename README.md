@@ -1,8 +1,12 @@
 # Old Apple Website
-A clone of the old Apple official website
+I cloned the old official Apple's website for the Odin Project's [BUILDING WITH BACKGROUNDS AND GRADIENTS](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)Task.
+
+Using only HTML and advanced technique in CSS for the styling.
 
 ## Built With
 - HTML & CSS
+- [FontAwesome Icons Library](https://fontawesome.com/cheatsheet?from=io)
+- I used [CSSGradient](https://cssgradient.io/) for the navigation bar and hoover colors.
 
 ## Usage
 ```Git
