@@ -6,6 +6,14 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+h6 {
+  display: none;
+}
+
 nav {
   display: flex;
   position: absolute;
@@ -13,12 +21,21 @@ nav {
   margin-top: 6rem;
   justify-content: center;
   height: 2.28rem;
+  z-index: 1;
+}
+
+li:hover {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(37, 81, 162, 1) 0%, rgba(254, 16, 16, 1) 100%);
 }
 
 ul {
   display: table;
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  background: #707070;
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(140, 140, 140, 1) 100%);
 }
 
 li {
@@ -27,21 +44,19 @@ li {
 
 .first {
   border-radius: 4px 0 0 4px;
+  border-left: 0;
 }
 
-button {
+li > a {
+  display: block;
   padding: 4px 30px;
-  background: #707070;
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
-  width: 5rem;
-  border: solid 0.5px #707070;
-}
-
-button > div {
-  margin-left: -0.7rem;
+  width: 100%;
+  border: solid 0.5px transparent;
+  border-left: solid 0.5px #707070;
 }
 
 .logo {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 18px;
@@ -51,6 +66,7 @@ button > div {
 }
 
 .store {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 44px;
@@ -59,6 +75,7 @@ button > div {
 }
 
 .mac {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 31px;
@@ -67,6 +84,7 @@ button > div {
 }
 
 .ipod {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 28px;
@@ -75,6 +93,7 @@ button > div {
 }
 
 .iphone {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 43px;
@@ -83,6 +102,7 @@ button > div {
 }
 
 .ipad {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 27px;
@@ -91,6 +111,7 @@ button > div {
 }
 
 .itunes {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 41px;
@@ -99,6 +120,7 @@ button > div {
 }
 
 .support {
+  display: block;
   background-image: url(./img/menu.png);
   height: 27px;
   width: 49px;
@@ -107,6 +129,7 @@ button > div {
 }
 
 .search {
+  display: block;
   background: #707070;
   display: flex;
   align-items: center;
@@ -117,7 +140,7 @@ button > div {
 .search > input {
   font-family: FontAwesome;
   background: #707070;
-  background: linear-gradient(195deg, rgba(255,255,255,1) 0%, rgba(112,112,112,1) 0%, rgba(140,140,140,1) 100%);
+  background: linear-gradient(195deg, rgba(255, 255, 255, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(140, 140, 140, 1) 100%);
   margin: 0 5px;
   border-radius: 4px;
 }
@@ -136,11 +159,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
-h2 {
+.h2 {
   font-size: 27px;
   font-weight: 100;
   margin: 0;
   margin-bottom: 10rem;
+  text-decoration: none;
+  color: white;
 }
 
 .header {
@@ -179,6 +204,7 @@ h2 {
 }
 
 .product-item-1 {
+  display: block;
   background-image: url(https://archive.fo/UW4oR/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg);
   height: 100%;
   width: 100%;
@@ -189,6 +215,7 @@ h2 {
 }
 
 .product-item-2 {
+  display: block;
   background-image: url(https://archive.fo/UW4oR/6032fe46fd16493ddda4e90ae45725962fc826b9.jpg);
   height: 100%;
   width: 100%;
@@ -199,6 +226,7 @@ h2 {
 }
 
 .product-item-3 {
+  display: block;
   background-image: url(https://archive.fo/UW4oR/307a4ef1971d63d523c362cc3e49f923549fcefc.jpg);
   height: 100%;
   width: 100%;
@@ -209,6 +237,7 @@ h2 {
 }
 
 .product-item-4 {
+  display: block;
   background-image: url(https://archive.fo/UW4oR/ec67ffeb084d1b9c83687205641697baa4122bee.jpg);
   height: 100%;
   width: 100%;
@@ -244,6 +273,10 @@ footer {
   font-size: 10px;
 }
 
-a {
-  text-decoration: none;
+.footer-text-container > .information > p > a {
+  color: #76b8df;
+}
+
+.footer-text-container > .copyrights > p > a {
+  color: #76b8df;
 }
