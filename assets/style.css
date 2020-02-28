@@ -150,11 +150,13 @@ h1 {
   margin-bottom: 1rem;
 }
 
-h2 {
+.h2 {
   font-size: 27px;
   font-weight: 100;
   margin: 0;
   margin-bottom: 10rem;
+  text-decoration: none;
+  color: white;
 }
 
 .header {
